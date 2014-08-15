@@ -1,0 +1,27 @@
+<xml>
+	
+	<files id="native-toolkit-json">
+		
+		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/json" />
+		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/json/_internal/Source" />
+		
+		<compilerflag value="-DNDEBUG" unless="debug" />
+		
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONPreparse.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONValidator.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONWriter.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONNode_Mutex.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONWorker.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONDebug.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONStream.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/libjson.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONIterators.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONMemory.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONAllocator.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONChildren.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/internalJSONNode.cpp" />
+		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONNode.cpp" />
+		
+	</files>
+	
+</xml>
