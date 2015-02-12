@@ -6,6 +6,7 @@
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/json/_internal/Source" />
 		
 		<compilerflag value="-DNDEBUG" unless="debug" />
+		<compilerflag value="-DJSON_DEBUG" if="debug" />
 		
 		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONPreparse.cpp" />
 		<file name="${NATIVE_TOOLKIT_PATH}/json/_internal/Source/JSONValidator.cpp" />
